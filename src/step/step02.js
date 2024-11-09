@@ -14,8 +14,8 @@ const Step02 = () => {
         <div className={blue}>변수 사용한 CSS</div>
         {/* 3. CSS모듈 사용 */}
         <div className={styleName.red}>모듈 사용</div>
-        {/* 4. Tailwind CSS 사용  */}
-        <div className='bg-red-500'>Tailwind CSS 사용</div>
+        {/* 4. Tailwind CSS 사용 : https://tailwindcss.com/docs/guides/create-react-app */}
+        <div className='bg-red-500 text-white p-4 rounded-md'>Tailwind CSS 사용</div>
     </>
   )
 }
