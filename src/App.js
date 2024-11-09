@@ -21,8 +21,8 @@ function App() {
       {/* <Step04 title='게시판 제목' content='게시판내용' name='작성자' red='red' /> */}
       {/* <Step05 /> */}
       {/* <Step06 /> */}
-      {/* <Step07 /> */}
-      <Step08 />
+      <Step07 />
+      {/* <Step08 /> */}
     </>
   );
 }

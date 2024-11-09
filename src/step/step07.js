@@ -17,7 +17,7 @@ const Step07 = () => {
         {/* 2. map 사용법 */}
         <ul>
             {students.map((v, i)=>{
-                <li key={i}>{v}</li>
+                return <li key={i}>{v}</li>
             })}
         </ul>
     </>
