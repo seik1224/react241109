@@ -1,13 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Step01 from './step/step01';
 
 function App() {
   return (
-    <div>
-      <div>리액트!</div>
-      <div></div>
-    </div>
+    <>
+      {/* 컴포넌트 : 재사용 가능한 코드 조각(버튼, 텍스트, 이미지 등등...) */}
+      <Comp />
+      <Comp />
+      <Step01 />
+    </>
   );
+}
+
+// 작명시 영어대문자로 시작
+// 함수표현식, 함수선언식 둘 다 가능
+
+function Comp() {
+  return <div>컴포넌트</div>
 }
 
 export default App;
